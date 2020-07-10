@@ -1,26 +1,57 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Row, Col} from 'antd';
+import {Topbar} from "./topbar";
+import {BackTop} from "./CommonUI/BackTop/BackTop";
+import {Titleimg} from "./showimg/titleimg";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => {
+    return (
+        <div className={'back'}>
+            <Row>
+                <Col span={24} className={'top-bar'}>
+                    <Topbar/>
+                </Col>
+            </Row>
+            <div className={'space'}/>
+            <div className={'space'}/>
+            <div className={'space'}/>
+            <Row>
+                <Col span={18} offset={3} className={'big-title'}>
+                    <Titleimg/>
+                </Col>
+            </Row>
+            <div className={'space'}/>
+            <Row>
+                <Col span={18} offset={3} className={'roll'}>滚动展示</Col>
+            </Row>
+            <div className={'space'}/>
+            <Row>
+                <Col span={4} offset={3} className={'article'}>
+                    <div className={'article-img'}/>
+                    <div className={'space'}/>
+                    <div className={'article-img'}/>
+                </Col>
+                <Col span={4} offset={1} className={'article'}>
+                    <div className={'article-img'}/>
+                    <div className={'space'}/>
+                    <div className={'article-img'}/>
+                </Col>
+                <Col span={4} offset={1} className={'article'}>
+                    <div className={'article-img'}/>
+                    <div className={'space'}/>
+                    <div className={'article-img'}/>
+                </Col>
+                <Col span={3} offset={1} className={'right-bar'}>3</Col>
+            </Row>
+            <div className={'space'}/>
+            <Row>
+                <Col span={24} className={'bottom-bar'}>底部栏</Col>
+            </Row>
+            <BackTop/>
+        </div>
+    );
+};
 
 export default App;
