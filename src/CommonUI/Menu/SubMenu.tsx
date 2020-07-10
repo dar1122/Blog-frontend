@@ -1,13 +1,11 @@
 import './Menu.css';
 import React from 'react';
 
-export class Menu extends React.Component<any, any>{
-
-
+export class SubMenu extends React.Component<any, any>{
 
     render() {
         return (
-            <></>
+            <ul></ul>
         );
     }
 

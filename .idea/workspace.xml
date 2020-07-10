@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61fa8603-c89f-4271-b7ca-4c94e751a2d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/blake.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/BackTop/BackTop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/BackTop/BackTop.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Menu/Menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Menu/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blake.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showimg/titleimg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showimg/titleimg.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topbar/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topbar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Menu/Item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Menu/SubMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommonUI/Menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Menu/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -120,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594031077922</updated>
       <workItem from="1594031079240" duration="6212000" />
-      <workItem from="1594109063216" duration="73387000" />
+      <workItem from="1594109063216" duration="77682000" />
     </task>
     <servers />
   </component>
