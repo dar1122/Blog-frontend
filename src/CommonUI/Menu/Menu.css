@@ -1,5 +1,19 @@
 
 .menu_button {
-    width: 30%;
-    height: 50%;
+    position: relative;
+    left: 10%;
+    color: black;
+}
+
+.menu_ul {
+    background-color: dimgray;
+    box-shadow: -10px 10px 10px rgba(0,0,0,0.9);
+    border-radius: 3px;
+    list-style-type: none;
+    display: none;
+}
+
+
+.menu_button:hover +.menu_ul {
+    display: block;
 }
