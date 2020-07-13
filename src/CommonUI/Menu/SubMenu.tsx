@@ -5,7 +5,11 @@ export class SubMenu extends React.Component<any, any>{
 
     render() {
         return (
-            <ul></ul>
+            <li>
+                <span>分类</span>
+                <ul className={'submenu'}>{this.props.children}</ul>
+            </li>
+
         );
     }
 

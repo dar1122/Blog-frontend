@@ -2,15 +2,27 @@ import './index.css';
 import React from 'react';
 import { Row, Col, Space } from "antd";
 import { MailFilled, WechatOutlined, GithubFilled } from '@ant-design/icons';
+import { Menu } from "../CommonUI/Menu";
 
 
-export class Topbar extends React.Component<any, any>{
+export class Topbar extends React.Component {
 
     render() {
         return (
             <Row className={'welcome'} >
                 <Col span={3} >
-                    <button>菜单</button>
+                    <Menu>
+                        <Menu.SubMenu>
+                            <Menu.Item name={'子菜单1'}/>
+                            <Menu.Item name={'子菜单2'} />
+                            <Menu.Item name={'子菜单3'} />
+                        </Menu.SubMenu>
+                        <Menu.SubMenu>
+                            <Menu.Item name={'子菜单4'}/>
+                            <Menu.Item name={'子菜单5'} />
+                            <Menu.Item name={'子菜单6'} />
+                        </Menu.SubMenu>
+                    </Menu>
                 </Col>
                 <Col span={6} >
                     <p>Hello stranger, Welcome to my Blog !</p>
