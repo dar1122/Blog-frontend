@@ -10,8 +10,9 @@ export class Topbar extends React.Component {
     render() {
         return (
             <Row className={'welcome'} >
-                <Col span={2} >
+                <Col span={1} >
                     <Menu>
+                        <Menu.Item name={'子菜单0'}/>
                         <Menu.SubMenu>
                             <Menu.Item name={'子菜单1'}/>
                             <Menu.Item name={'子菜单2'} />
@@ -24,7 +25,7 @@ export class Topbar extends React.Component {
                         </Menu.SubMenu>
                     </Menu>
                 </Col>
-                <Col span={6} offset={1} >
+                <Col span={6} offset={2} >
                     <p>Hello stranger, Welcome to my Blog !</p>
                 </Col>
                 <Col span={3} offset={11}>

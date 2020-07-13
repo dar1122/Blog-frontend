@@ -29,7 +29,7 @@ export class BackTop extends React.Component<any, State> {
         let current_scrollY = window.scrollY;
         const x = setInterval(() => {
             window.scrollTo({top: current_scrollY});
-            current_scrollY -= 40;
+            current_scrollY -= 70;
             if (current_scrollY < 0) {
                 clearInterval(x);
             }

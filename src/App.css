@@ -1,14 +1,17 @@
 @import '~antd/dist/antd.css';
 
+.back {
+  background-color: lightsteelblue;
+}
 
 .top-bar {
   height: 60px;
   width: 100%;
-  background-color: dimgray;
+  background-color: rgb(235, 235, 235);
   position: fixed;
   z-index: 9999;
   top: 0;
-  box-shadow: -10px 10px 10px rgba(0,0,0,0.9);
+  box-shadow: -10px 10px 10px rgba(0,0,0,0.3);
   border-radius: 3px;
 }
 
@@ -20,7 +23,7 @@
 .big-title {
   height: 480px;
   font-weight: bold;
-  box-shadow: -10px 10px 10px rgba(0,0,0,0.9);
+  box-shadow: -10px 10px 10px rgba(0,0,0,0.5);
   overflow: hidden;
 }
 

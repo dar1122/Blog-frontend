@@ -2,7 +2,7 @@ import './Menu.css';
 import React from 'react';
 import { Item } from "./Item";
 import { SubMenu } from "./SubMenu";
-import { MenuUnfoldOutlined, CaretDownOutlined } from  '@ant-design/icons';
+import { MenuUnfoldOutlined, CaretDownOutlined } from '@ant-design/icons';
 
 export class Menu extends React.Component<any, any>{
 
@@ -11,14 +11,13 @@ export class Menu extends React.Component<any, any>{
 
     render() {
         return (
-            <div>
-                <a className={'menu_button'}>
-                    <MenuUnfoldOutlined />
-                    <span>菜单</span>
-                    <CaretDownOutlined />
-                </a>
+            <>
+                <div className={'menu_button'}>
+                    <a className={'menu_title'}><span>菜单</span> <CaretDownOutlined /></a>
+                </div>
+
                 <ul className={'menu_ul'}>{this.props.children}</ul>
-            </div>
+            </>
         );
     }
 }
