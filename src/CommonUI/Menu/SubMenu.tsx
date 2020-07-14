@@ -7,7 +7,7 @@ export class SubMenu extends React.Component<any, any>{
     render() {
         return (
             <li className={'submenu_title'}>
-                <span>{this.props.name} <CaretRightOutlined/></span>
+                <a><span style={{color: 'rgb(87, 87, 87)'}}>{this.props.name} <CaretRightOutlined/></span></a>
                 <ul className={'submenu'}>
                     {this.props.children}
                 </ul>

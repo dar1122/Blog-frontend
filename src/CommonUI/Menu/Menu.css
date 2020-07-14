@@ -42,7 +42,6 @@
 }
 
 .submenu_title {
-
     text-align: center;
 }
 
@@ -58,7 +57,7 @@
 }
 
 .menu_item:hover {
-    background-color: dimgray;
+    background-color: rgba(0,0,0,0.1);
 }
 
 

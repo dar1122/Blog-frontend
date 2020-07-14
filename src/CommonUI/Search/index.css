@@ -1,0 +1,17 @@
+.search {
+    height: 30px;
+    border-radius: 10px;
+    background-image: url('/public/img/search.png');
+}
+
+.search:focus {
+    outline: none;
+}
+
+.search_div {
+    text-align: center;
+}
+
+input::-webkit-input-placeholder {
+    font-size: xx-small;
+}
