@@ -15,7 +15,6 @@ export class Menu extends React.Component<any, any>{
                 <div className={'menu_button'}>
                     <a className={'menu_title'}><span>菜单</span> <CaretDownOutlined /></a>
                 </div>
-
                 <ul className={'menu_ul'}>{this.props.children}</ul>
             </>
         );

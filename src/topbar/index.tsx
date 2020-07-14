@@ -10,22 +10,22 @@ export class Topbar extends React.Component {
     render() {
         return (
             <Row className={'welcome'} >
-                <Col span={1} >
+                <Col span={2} >
                     <Menu>
                         <Menu.Item name={'子菜单0'}/>
-                        <Menu.SubMenu>
+                        <Menu.SubMenu name={'分类1'}>
                             <Menu.Item name={'子菜单1'}/>
                             <Menu.Item name={'子菜单2'} />
                             <Menu.Item name={'子菜单3'} />
                         </Menu.SubMenu>
-                        <Menu.SubMenu>
+                        <Menu.SubMenu name={'分类2'}>
                             <Menu.Item name={'子菜单4'}/>
                             <Menu.Item name={'子菜单5'} />
                             <Menu.Item name={'子菜单6'} />
                         </Menu.SubMenu>
                     </Menu>
                 </Col>
-                <Col span={6} offset={2} >
+                <Col span={6} offset={1}>
                     <p>Hello stranger, Welcome to my Blog !</p>
                 </Col>
                 <Col span={3} offset={11}>
@@ -33,7 +33,7 @@ export class Topbar extends React.Component {
                         <a href={'https://www.baidu.com/'} className={'link'}>
                             <WechatOutlined  />
                         </a>
-                        <a href={'https://github.com/dar1122'} className={'link'}>
+                        <a href={'https://github.com/dar1122/Blog-frontend'} className={'link'}>
                             <GithubFilled />
                         </a>
                         <a href={'https://www.baidu.com/'} className={'link'}>

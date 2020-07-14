@@ -6,7 +6,10 @@ export class Item extends React.Component<any, any>{
 
     render() {
         return (
-            <li className={'menu_item'}>{this.props.name}</li>
+            <a>
+                <li className={'menu_item'}>{this.props.name}</li>
+            </a>
+
         );
     }
 }

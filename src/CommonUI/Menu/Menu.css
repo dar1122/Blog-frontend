@@ -1,7 +1,7 @@
 
 .menu_button {
     position: relative;
-    left: 40%;
+    left: 10%;
     color: rgb(87, 87, 87);
     text-align: center;
 }
@@ -12,28 +12,54 @@
 
 .menu_ul {
     position: relative;
-    left: 20%;
     width: 200px;
+    left: 40px;
     background-color: white;
     border-radius: 3px;
     list-style-type: none;
     display: none;
+    margin: 0 0 0 0;
+    padding: inherit;
     z-index: 9999;
+    opacity: 0.9;
 }
 
 .submenu {
+    width: 200px;
+    border-radius: 3px;
+    background-color: white;
+    position: fixed;
     list-style-type: none;
     display: none;
+    padding: inherit;
+    margin: 0 0 0 0;
+    left: 240px;
 }
 
+
 .submenu_title:hover >.submenu {
-    display: block;
+    display: inline;
+}
+
+.submenu_title {
+
+    text-align: center;
 }
 
 .menu_ul:hover {
     display: block;
 }
 
+
+.menu_item {
+    background-color: white;
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+
+.menu_item:hover {
+    background-color: dimgray;
+}
 
 
 .menu_button:hover +.menu_ul {

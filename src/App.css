@@ -36,6 +36,9 @@
   opacity: 0.6;
   background-color: white;
   z-index: 9998;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .roll {
