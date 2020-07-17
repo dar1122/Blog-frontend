@@ -1,7 +1,17 @@
 .search {
-    height: 30px;
+    height: 25px;
+    width: 90px;
     border-radius: 10px;
-    background-image: url('/public/img/search.png');
+    background: url('search.png') no-repeat;
+    background-size: 25px;
+    background-position: 0px ;
+    padding: 0 0 0 25px ;
+    transition: width 1s;
+
+}
+
+.search:focus {
+    width: 150px;
 }
 
 .search:focus {
@@ -9,7 +19,7 @@
 }
 
 .search_div {
-    text-align: center;
+    text-align: right;
 }
 
 input::-webkit-input-placeholder {

@@ -14,11 +14,9 @@ const App = () => {
                     <Topbar/>
                 </Col>
             </Row>
-            <div className={'space'}/>
-            <div className={'space'}/>
-            <div className={'space'}/>
+
             <Row>
-                <Col span={18} offset={3} className={'big-title'}>
+                <Col span={24} className={'big-title'}>
                     <Titleimg/>
                 </Col>
             </Row>

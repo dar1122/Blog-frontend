@@ -8,7 +8,8 @@ export class Search extends React.Component{
         return (
             <>
                 <div className={'search_div'} >
-                    <input type={'text'} className={'search'}  placeholder={'请输入要搜索的内容'}/>
+                    <span id={'img'} />
+                    <input type={'text'} className={'search'} />
                 </div>
             </>
         );

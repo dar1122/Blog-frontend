@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61fa8603-c89f-4271-b7ca-4c94e751a2d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Search/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Search/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Mmodel/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Mmodel/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Search/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Shade.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommonUI/Menu/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Menu/Menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommonUI/Menu/SubMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Menu/SubMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommonUI/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Menu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommonUI/Search/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Search/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommonUI/Search/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Search/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/topbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/topbar/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -41,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/KUJIALE/bim-app" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/kam-floorplan2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -56,11 +66,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\blog\public\icon" />
       <recent name="C:\Users\admin\WebstormProjects\blog\public\img" />
       <recent name="C:\Users\admin\WebstormProjects\blog\src\CommonUI\BackTop" />
       <recent name="C:\Users\admin\WebstormProjects\blog\public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\blog\src\CommonUI\Search" />
       <recent name="C:\Users\admin\WebstormProjects\blog\public\img" />
       <recent name="C:\Users\admin\WebstormProjects\blog\src" />
       <recent name="C:\Users\admin\WebstormProjects\blog\src\public" />
@@ -107,7 +119,8 @@
       <option name="presentableId" value="Default" />
       <updated>1594031077922</updated>
       <workItem from="1594031079240" duration="6212000" />
-      <workItem from="1594109063216" duration="108607000" />
+      <workItem from="1594109063216" duration="120640000" />
+      <workItem from="1594957890741" duration="17949000" />
     </task>
     <servers />
   </component>
@@ -119,34 +132,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="96" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1594195023883" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1594191238159">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2308" y="394" key="FileChooserDialogImpl" timestamp="1594969829575">
+      <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594191238159" />
-    <state width="1053" height="146" key="GridCell.Tab.0.bottom" timestamp="1594706012352">
+    <state x="690" y="218" key="FileChooserDialogImpl/1920.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594957905523" />
+    <state x="2308" y="394" key="FileChooserDialogImpl/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594969829575" />
+    <state width="1053" height="199" key="GridCell.Tab.0.bottom" timestamp="1594976514129">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1253" height="76" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594222106860" />
     <state width="1893" height="146" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594691735844" />
-    <state width="1053" height="146" key="GridCell.Tab.0.bottom/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594706012352" />
-    <state width="1053" height="146" key="GridCell.Tab.0.center" timestamp="1594706012352">
+    <state width="1053" height="199" key="GridCell.Tab.0.bottom/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594976514129" />
+    <state width="1053" height="199" key="GridCell.Tab.0.center" timestamp="1594976514129">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1253" height="76" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594222106860" />
     <state width="1893" height="146" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594691735844" />
-    <state width="1053" height="146" key="GridCell.Tab.0.center/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594706012352" />
-    <state width="1053" height="146" key="GridCell.Tab.0.left" timestamp="1594706012352">
+    <state width="1053" height="199" key="GridCell.Tab.0.center/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594976514129" />
+    <state width="1053" height="199" key="GridCell.Tab.0.left" timestamp="1594976514129">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1253" height="76" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594222106860" />
     <state width="1893" height="146" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594691735844" />
-    <state width="1053" height="146" key="GridCell.Tab.0.left/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594706012352" />
-    <state width="1053" height="146" key="GridCell.Tab.0.right" timestamp="1594706012352">
+    <state width="1053" height="199" key="GridCell.Tab.0.left/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594976514129" />
+    <state width="1053" height="199" key="GridCell.Tab.0.right" timestamp="1594976514129">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1253" height="76" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594222106860" />
     <state width="1893" height="146" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594691735844" />
-    <state width="1053" height="146" key="GridCell.Tab.0.right/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594706012352" />
+    <state width="1053" height="199" key="GridCell.Tab.0.right/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594976514129" />
     <state x="345" y="78" key="SettingsEditor" timestamp="1594289402424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -159,13 +174,18 @@
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="2081" y="465" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594716665549" />
-    <state x="0" y="0" width="812" height="680" key="find.popup" timestamp="1594133602367">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="1920" y="0" width="799" height="1880" key="find.popup" timestamp="1594979888795">
+      <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="0" y="0" width="812" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1594133602367" />
+    <state x="1920" y="0" width="799" height="1880" key="find.popup/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594979888795" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1594289417708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594289417708" />
+    <state x="2039" y="428" width="840" height="1034" key="search.everywhere.popup" timestamp="1594973275177">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2039" y="428" width="840" height="1034" key="search.everywhere.popup/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594973275177" />
   </component>
 </project>

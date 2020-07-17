@@ -2,7 +2,7 @@ import './Menu.css';
 import React from 'react';
 import { Item } from "./Item";
 import { SubMenu } from "./SubMenu";
-import { MenuUnfoldOutlined, CaretDownOutlined } from '@ant-design/icons';
+import { CaretDownOutlined } from '@ant-design/icons';
 
 export class Menu extends React.Component<any, any>{
 
