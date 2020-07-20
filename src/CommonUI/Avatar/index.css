@@ -2,3 +2,97 @@
     text-align: center;
     font-size: x-small;
 }
+
+.login-body-a {
+    color: dimgray;
+}
+
+
+.login-user {
+    width: 350px;
+    height: 50px;
+    margin: 15px;
+    font-size: 15px;
+    padding: 0 16px 0 16px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.3);
+}
+
+.login-password {
+    width: 350px;
+    height: 50px;
+    margin: 15px;
+    font-size: 15px;
+    padding: 0 46px 0 16px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.3);
+}
+
+input::placeholder {
+    color: darkgray;
+    font-size: 15px;
+}
+
+.password-hide {
+    position: absolute;
+    height: 50px;
+    right: 50px;
+    top: 220px;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 20px;
+}
+
+
+.login-btn {
+    position: absolute;
+    width: 350px;
+    background-color: rgba(0,0,255,0.6);
+    font-size: 20px;
+    color: white;
+    left: 50px;
+    border-radius: 15px;
+}
+
+.login-btn:hover {
+    color: white;
+    background-color: rgba(0,0,255,0.7);
+}
+
+.login-tool {
+    position: absolute;
+    width: 100%;
+    top: 360px;
+    font-size: 15px;
+    color: dimgray;
+}
+
+.remberme {
+    position: absolute;
+    left: 60px;
+
+}
+
+.wechat {
+    content: url("wechat.png");
+    width: 50px;
+    padding: 12px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 30px;
+}
+
+.QQ {
+    content: url("QQ.png");
+    width: 50px;
+    padding: 12px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 30px;
+}
+
+.wechat:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.QQ:hover {
+    background-color: rgba(0,0,0,0.1);
+}

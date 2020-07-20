@@ -4,7 +4,10 @@ import {Row, Col} from 'antd';
 import {Topbar} from "./topbar";
 import {BackTop} from "./CommonUI/BackTop/BackTop";
 import {Titleimg} from "./showimg/titleimg";
+import {User} from "./user";
 
+
+export const user = new User();
 
 const App = () => {
     return (

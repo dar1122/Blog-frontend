@@ -32,20 +32,20 @@ export class Model extends React.Component<Props>{
                         <Row className={'model-header'}>
                             <Col span={18}>
                                 <div>
-                                    <span>标题</span>
+                                    <span>{this.props.title}</span>
                                 </div>
                             </Col>
                             <Col span={6}>
                                 <div>
-                                    <a onClick={this.quit}>X</a>
+                                    <a onClick={this.quit} className={'close-model'}></a>
                                 </div>
                             </Col>
                         </Row>
                         <Row className={'model-body'}>
-                            2
+                            {this.props.body}
                         </Row>
                         <Row className={'model-foot'}>
-                            3
+                            {this.props.foot}
                         </Row>
                 </div>
             </>

@@ -2,7 +2,9 @@ import React from 'react';
 
 export interface Props {
     show: boolean
-
+    title?: string
+    body?: any
+    foot?: any
 }
 
 export class Shade extends React.Component<Props>{

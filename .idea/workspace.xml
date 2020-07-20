@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61fa8603-c89f-4271-b7ca-4c94e751a2d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/icon/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Mmodel/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Mmodel/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Search/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonUI/Shade.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/QQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/view_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/QQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/view_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonUI/Mmodel/close.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommonUI/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Menu/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommonUI/Search/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Search/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommonUI/Search/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Search/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/topbar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommonUI/Avatar/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommonUI/Avatar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Avatar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommonUI/Mmodel/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Mmodel/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommonUI/Mmodel/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Mmodel/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommonUI/Shade.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonUI/Shade.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/kam-floorplan2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/CommonUI/Avatar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -65,17 +65,18 @@
     <property name="ts.external.directory.path" value="C:\Users\admin\WebstormProjects\blog\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\blog\src\CommonUI\Avatar" />
+      <recent name="C:\Users\admin\WebstormProjects\blog\src\CommonUI\Mmodel" />
+      <recent name="C:\Users\admin\WebstormProjects\blog\src\CommonUI\Search" />
+      <recent name="C:\Users\admin\WebstormProjects\blog\public\img" />
+      <recent name="C:\Users\admin\WebstormProjects\blog\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\WebstormProjects\blog\public\icon" />
       <recent name="C:\Users\admin\WebstormProjects\blog\public\img" />
       <recent name="C:\Users\admin\WebstormProjects\blog\src\CommonUI\BackTop" />
       <recent name="C:\Users\admin\WebstormProjects\blog\public" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\WebstormProjects\blog\src\CommonUI\Search" />
-      <recent name="C:\Users\admin\WebstormProjects\blog\public\img" />
-      <recent name="C:\Users\admin\WebstormProjects\blog\src" />
-      <recent name="C:\Users\admin\WebstormProjects\blog\src\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -121,6 +122,7 @@
       <workItem from="1594031079240" duration="6212000" />
       <workItem from="1594109063216" duration="120640000" />
       <workItem from="1594957890741" duration="17949000" />
+      <workItem from="1595212134559" duration="28597000" />
     </task>
     <servers />
   </component>
@@ -138,30 +140,30 @@
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594191238159" />
     <state x="690" y="218" key="FileChooserDialogImpl/1920.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1594957905523" />
     <state x="2308" y="394" key="FileChooserDialogImpl/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594969829575" />
-    <state width="1053" height="199" key="GridCell.Tab.0.bottom" timestamp="1594976514129">
+    <state width="1053" height="199" key="GridCell.Tab.0.bottom" timestamp="1595218582595">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1253" height="76" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594222106860" />
     <state width="1893" height="146" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594691735844" />
-    <state width="1053" height="199" key="GridCell.Tab.0.bottom/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594976514129" />
-    <state width="1053" height="199" key="GridCell.Tab.0.center" timestamp="1594976514129">
+    <state width="1053" height="199" key="GridCell.Tab.0.bottom/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1595218582595" />
+    <state width="1053" height="199" key="GridCell.Tab.0.center" timestamp="1595218582595">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1253" height="76" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594222106860" />
     <state width="1893" height="146" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594691735844" />
-    <state width="1053" height="199" key="GridCell.Tab.0.center/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594976514129" />
-    <state width="1053" height="199" key="GridCell.Tab.0.left" timestamp="1594976514129">
+    <state width="1053" height="199" key="GridCell.Tab.0.center/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1595218582595" />
+    <state width="1053" height="199" key="GridCell.Tab.0.left" timestamp="1595218582595">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1253" height="76" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594222106860" />
     <state width="1893" height="146" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594691735844" />
-    <state width="1053" height="199" key="GridCell.Tab.0.left/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594976514129" />
-    <state width="1053" height="199" key="GridCell.Tab.0.right" timestamp="1594976514129">
+    <state width="1053" height="199" key="GridCell.Tab.0.left/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1595218582595" />
+    <state width="1053" height="199" key="GridCell.Tab.0.right" timestamp="1595218582595">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1253" height="76" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594222106860" />
     <state width="1893" height="146" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594691735844" />
-    <state width="1053" height="199" key="GridCell.Tab.0.right/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594976514129" />
+    <state width="1053" height="199" key="GridCell.Tab.0.right/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1595218582595" />
     <state x="345" y="78" key="SettingsEditor" timestamp="1594289402424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -174,11 +176,11 @@
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="2081" y="465" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594716665549" />
-    <state x="1920" y="0" width="799" height="1880" key="find.popup" timestamp="1594979888795">
+    <state x="1920" y="0" width="799" height="1880" key="find.popup" timestamp="1595223301823">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="0" y="0" width="812" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1594133602367" />
-    <state x="1920" y="0" width="799" height="1880" key="find.popup/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1594979888795" />
+    <state x="1920" y="0" width="799" height="1880" key="find.popup/1920.0.1080.1880/0.0.1920.1040@1920.0.1080.1880" timestamp="1595223301823" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1594289417708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
