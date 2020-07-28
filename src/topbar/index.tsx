@@ -5,11 +5,12 @@ import { MailFilled, WechatOutlined, GithubFilled, SearchOutlined } from '@ant-d
 import { Menu } from "../CommonUI/Menu";
 import { Search } from "../CommonUI/Search";
 import { Avatar } from "../CommonUI/Avatar";
+import { user } from "../index";
 
 export class Topbar extends React.Component {
 
     render() {
-        const visiter = 'stranger';
+        const visiter = user.name?user.name:'Stranger';
         return (
             <Row className={'welcome'} >
                 <Col span={2} >

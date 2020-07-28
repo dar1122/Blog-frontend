@@ -96,3 +96,56 @@ input::placeholder {
 .QQ:hover {
     background-color: rgba(0,0,0,0.1);
 }
+
+.avatar {
+    font-size: small;
+    width: 80%;
+    float: right;
+}
+
+.avatar_img {
+
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.avatar_info {
+    padding: 7px;
+    color: black;
+}
+
+
+.userMenu {
+    width: 200px;
+    height: 250px;
+    border-radius: 3px;
+    background-color: white;
+    position: fixed;
+    list-style-type: none;
+    display: none;
+    padding: inherit;
+    margin: 0 0 0 0;
+    top: 60px;
+    right: 10px;
+
+}
+
+
+.avatar:hover >.userMenu {
+    display: inline;
+}
+
+.user_setting {
+    position: relative;
+    text-align: right;
+    display: inline;
+    bottom: 20px;
+}
+
+.logout {
+    position: relative;
+    text-align: center;
+    display: inline;
+    bottom: 20px;
+}

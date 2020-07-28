@@ -1,0 +1,39 @@
+.roll_title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    margin-bottom: 20px;
+}
+
+.roll_body {
+    height: 280px;
+}
+
+.roll_right,.roll_left {
+    height: 280px;
+
+}
+
+
+.roll_left_icon,.roll_right_icon {
+    padding: 90px 15px 90px 15px;
+}
+
+.roll_img {
+    height: 280px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.roll_img:hover >.roll_card {
+    animation-play-state: paused;
+}
+
+.roll_card {
+    background-color: white;
+    margin-left: 13px;
+    margin-right: 13px;
+    animation: card_go 20s linear infinite;
+    display: inline-block;
+}

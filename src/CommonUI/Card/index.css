@@ -1,0 +1,35 @@
+
+
+.card_img {
+    width: 270px;
+    transition: all 0.3s;
+
+}
+
+.card_img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+
+
+.card_body {
+    font-family: 宋体;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    word-break: break-all;
+    text-overflow: ellipsis;
+
+}
+
+
+@keyframes card_go {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-220%);
+    }
+}

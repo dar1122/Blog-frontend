@@ -27,6 +27,12 @@ export class User {
 
     };
 
+    public logout = () =>{
+        this.isLogin = false;
+        this.name = '';
+        this.avatar = '';
+    };
+
     private checkLogin = (user: UserInfo):boolean =>{
         return true;
     };

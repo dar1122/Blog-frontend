@@ -2,7 +2,10 @@ import './index.css';
 import React from 'react';
 import { Model } from "../Mmodel";
 import { Row, Col } from "antd";
-import {user} from "../../App";
+import {user} from "../../index";
+import MD5 from 'crypto-js/md5';
+import {login, logout} from "../../API";
+
 
 export class Avatar extends React.Component{
 
@@ -13,7 +16,7 @@ export class Avatar extends React.Component{
         isLogin: user.isLogin,
         type: "password",
         icon_url: "view_off.png",
-        username: '',
+        userId: '',
         password: ''
     };
 
@@ -39,19 +42,33 @@ export class Avatar extends React.Component{
         }
     };
 
-    private loginIn = () =>{
-        if (this.checkLoginIn()){
-            user.isLogin = true;
-            user.name = this.state.username;
-            user.avatar = '';
-            this.setState({
-                isLogin: user.isLogin
-            })
-        }
-        else {
-            alert('登陆失败')
-        }
 
+    private logout = () =>{
+        logout().then(
+            data => {
+                if(data){
+                    user.logout();
+                }else {
+                    alert('退出失败')
+                }
+            }
+        );
+        window.location.reload();
+    };
+
+    private loginIn = () =>{
+        this.checkLoginIn()
+            .then(data => {
+                if (data.isLoginOk){
+                    user.name = data.message.username;
+                    user.avatar = data.message.avatar;
+                    user.isLogin = true;
+                }
+                else {
+                    alert("登陆失败")
+                }
+            })
+        window.location.reload()
     };
 
     private setUserInfo(event:any, key:string) {
@@ -61,13 +78,13 @@ export class Avatar extends React.Component{
 
     }
 
-    private checkLoginIn = () =>{
-        return this.state.username === 'dar' && this.state.password === '111';
+    private async checkLoginIn(){
+        return await login(this.state.userId, MD5(this.state.password).toString());
     };
 
 
     render() {
-
+        //登录弹框
         const body =
             <div style={{
                 width: "100%"
@@ -93,7 +110,7 @@ export class Avatar extends React.Component{
                         width: "100%",
                         height: "60%"
                     }}>
-                        <div><input onInput={(event) => {this.setUserInfo(event,'username')} } className={'login-user'} placeholder={'输入手机号 / 邮箱'}/></div>
+                        <div><input onInput={(event) => {this.setUserInfo(event,'userId')} } className={'login-user'} placeholder={'输入手机号 / 邮箱'}/></div>
                         <div><input onInput={(event) => {this.setUserInfo(event,'password')} } type={this.state.type} className={'login-password'} placeholder={'输入密码'}/><span onClick={this.changeIcon} className={'password-hide'} style={{
                             content: 'url('+process.env.PUBLIC_URL+'/icon/'+this.state.icon_url+')'
                         }} /></div>
@@ -124,14 +141,47 @@ export class Avatar extends React.Component{
                 </Col>
             </Row>;
 
+
+
+
+
+
         return (
             user.isLogin?
-                <div className={'avatar'} ><img src={user.avatar}/><span>{user.name}</span></div>:
+                <div className={'avatar'} >
+                    <a className={'avatar_a'} >
+                        <img className={'avatar_img'} src={process.env.PUBLIC_URL+'/img/blake.jpg'}/>
+                        <span className={'avatar_info'}>{user.name}</span>
+                    </a>
+                    <embed src={process.env.PUBLIC_URL+'/icon/arrow-down.svg'} style={{width:"10px"}} />
+                    <div className={'userMenu'}>
+                        <Row style={{
+                            height: "30%"
+                        }}/>
+                        <Row style={{
+                            height: "60%"
+                        }}/>
+                        <Row style={{
+                            height: "10%"
+                        }}>
+                            <Col span={8} className={'user_setting'}>
+                                <a style={{
+                                    color: "black"
+                                }}>账号设置</a>
+                            </Col>
+                            <Col span={8} offset={8} className={'logout'}>
+                                <a style={{
+                                    color: "red"
+                                }} onClick={this.logout} >退出</a>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
+                :
                 <div className={'login'}>
                     <a onClick={this.loginClick}>登录</a>/<a>注册</a>
                     <Model show={this.state.isShow} body={body} foot={foot} />
                 </div>
-
 
 
         );

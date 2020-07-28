@@ -1,7 +1,7 @@
 @import '~antd/dist/antd.css';
 
 .back {
-  background-color: lightsteelblue;
+  background-color: rgba(224, 224, 224, 0.5);
 }
 
 .top-bar {
@@ -21,10 +21,11 @@
 
 
 .big-title {
-  height: 580px;
+  height: 680px;
   font-weight: bold;
   box-shadow: -10px 10px 10px rgba(0,0,0,0.5);
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .mine {
@@ -42,8 +43,9 @@
 }
 
 .roll {
-  height: 150px;
-  background-color: green;
+  height: 300px;
+  text-align: center;
+  margin-bottom: 150px;
 }
 
 .space {
@@ -51,17 +53,11 @@
 }
 
 .article {
-  height: 530px;
-  background-color: aqua;
-}
-
-.article-img {
-  height: 250px;
-  background-color: coral;
+  height: 1100px;
 }
 
 .right-bar {
-  height: 5530px;
+  height: 730px;
   background-color: blanchedalmond;
 }
 
